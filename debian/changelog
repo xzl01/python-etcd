@@ -1,3 +1,33 @@
+python-etcd (0.4.5-4) unstable; urgency=medium
+
+  * Team upload.
+  * Build-depend on pytest instead of nose. (Closes: #1018488)
+  * Pass path to unit tests in PYBUILD_TEST_ARGS.
+  * Update d/watch to use github tags instead of releases.
+  * Set Standards-Version to 4.6.1, no change needed.
+
+ -- Emanuele Rocca <ema@debian.org>  Mon, 19 Sep 2022 16:22:49 +0200
+
+python-etcd (0.4.5-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Remove obsolete fields Name from debian/upstream/metadata.
+  * Set upstream metadata fields: Bug-Submit, Repository, Repository-
+    Browse.
+  * Use dh $@ sequencer.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+ -- Sandro Tosi <morph@debian.org>  Fri, 03 Jun 2022 10:51:47 -0400
+
 python-etcd (0.4.5-2) unstable; urgency=medium
 
   * Team upload.

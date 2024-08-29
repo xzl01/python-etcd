@@ -2,11 +2,11 @@
 
 export PYBUILD_NAME=etcd
 
-# these tests fail (and never passed since the version that enabled the tests)
-export PYBUILD_TEST_ARGS=-e integration -e test_auth
+# Only run unit tests
+export PYBUILD_TEST_ARGS=etcd/tests/unit/
 
 %:
-	dh $* --with python3 --buildsystem pybuild
+	dh $@ --with python3 --buildsystem pybuild
 
 # Add a manual call to dh_python3 as for some reason after the rebuild 0.4.3-3
 # it loses the dependency on python3-dnspython...

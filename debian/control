@@ -1,23 +1,23 @@
 Source: python-etcd
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders: Jelmer Vernooĳ <jelmer@debian.org>
 Homepage: https://github.com/jplana/python-etcd
 Build-Depends:
- debhelper-compat (= 11),
+ debhelper-compat (= 13),
  dh-python,
  python3-all,
  python3-dnspython <!nocheck>,
  python3-mock <!nocheck>,
- python3-nose <!nocheck>,
+ python3-pytest <!nocheck>,
  python3-openssl <!nocheck>,
  python3-setuptools,
  python3-urllib3 <!nocheck>,
-Standards-Version: 4.2.1
+Standards-Version: 4.6.1
 Rules-Requires-Root: no
-Vcs-Git: https://salsa.debian.org/python-team/modules/python-etcd.git
-Vcs-Browser: https://salsa.debian.org/python-team/modules/python-etcd
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-etcd.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-etcd
 
 Package: python3-etcd
 Architecture: all

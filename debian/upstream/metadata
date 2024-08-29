@@ -1,3 +1,4 @@
-Name: python-etcd
-Repository: https://github.com/jplana/python-etcd
+Repository: https://github.com/jplana/python-etcd.git
 Bug-Database: https://github.com/jplana/python-etcd/issues
+Bug-Submit: https://github.com/jplana/python-etcd/issues/new
+Repository-Browse: https://github.com/jplana/python-etcd
