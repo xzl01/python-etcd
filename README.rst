@@ -28,6 +28,13 @@ From source
 
     $ python setup.py install
 
+From Pypi
+~~~~~~~~~
+
+.. code:: bash
+
+   $ python -m pip install python-etcd
+
 Usage
 -----
 
@@ -202,18 +209,17 @@ List contents of a directory
 Development setup
 -----------------
 
-To create a buildout,
+To check your code,
 
 .. code:: bash
 
-    $ python bootstrap.py
-    $ bin/buildout
+    $ tox
 
 to test you should have etcd available in your system path:
 
 .. code:: bash
 
-    $ bin/test
+    $ command -v etcd
 
 to generate documentation,
 
